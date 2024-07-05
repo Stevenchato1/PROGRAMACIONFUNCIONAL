@@ -8,6 +8,7 @@ public class Principal {
         }*/
         Runnable runnable  = () ->{ System.out.println("Hola");
         System.out.println("Hola");
+        System.out.println("Hola denuevo");
 
         };
 
