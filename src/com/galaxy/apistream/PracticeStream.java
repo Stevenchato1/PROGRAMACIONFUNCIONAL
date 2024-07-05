@@ -10,5 +10,7 @@ public class PracticeStream {
             .filter(nombre -> nombre.contains("e"))
             .map(String::toUpperCase)
             .forEach(System.out::println);
+
+        nombres.stream().forEach(nombre -> System.out.println(nombre));
     }
 }
